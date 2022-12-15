@@ -1,0 +1,103 @@
+Listado de rutas de carpetas para el volumen SSD1TB
+El n£mero de serie del volumen es 4CEE-8FDB
+C:.
+|   listado_dir.txt
+|   
++---main
+|   +---java
+|   |   \---com
+|   |       \---gpa
+|   |           \---backendrest
+|   |               \---app
+|   |                   |   BackendRestGpaApplication.java
+|   |                   |   
+|   |                   +---config
+|   |                   |       JwtSecurityConfig.java
+|   |                   |       
+|   |                   +---constants
+|   |                   |       Constants.java
+|   |                   |       
+|   |                   +---controller
+|   |                   |       DocumentoController.java
+|   |                   |       EntidadController.java
+|   |                   |       PagoController.java
+|   |                   |       UsuarioAuthController.java
+|   |                   |       UsuarioController.java
+|   |                   |       UtramitController.java
+|   |                   |       
+|   |                   +---dao
+|   |                   |       IDocumentoDao.java
+|   |                   |       IEntidadDao.java
+|   |                   |       IFormaPagoDao.java
+|   |                   |       IPagoDao.java
+|   |                   |       IPermisoDao.java
+|   |                   |       ITerceroDao.java
+|   |                   |       IUsuarioDao.java
+|   |                   |       IUtramitDao.java
+|   |                   |       
+|   |                   +---entity
+|   |                   |       Documento.java
+|   |                   |       Entidad.java
+|   |                   |       FormaPago.java
+|   |                   |       Pago.java
+|   |                   |       Permiso.java
+|   |                   |       Tercero.java
+|   |                   |       Usuario.java
+|   |                   |       Utramit.java
+|   |                   |       
+|   |                   +---model
+|   |                   |       DocumentoDto.java
+|   |                   |       EntidadDto.java
+|   |                   |       FormaPagoDto.java
+|   |                   |       JwtAuthenticationToken.java
+|   |                   |       JwtUser.java
+|   |                   |       JwtUserDetails.java
+|   |                   |       PagoDto.java
+|   |                   |       PermisoDto.java
+|   |                   |       TerceroDto.java
+|   |                   |       UsuarioDto.java
+|   |                   |       UtramitDto.java
+|   |                   |       
+|   |                   +---repository
+|   |                   |       DocumentoRepository.java
+|   |                   |       EntidadRepository.java
+|   |                   |       PagoRepository.java
+|   |                   |       UsuarioRepository.java
+|   |                   |       UtramitRepository.java
+|   |                   |       
+|   |                   +---security
+|   |                   |       JwtAuthenticationEntryPoint.java
+|   |                   |       JwtAuthenticationProvider.java
+|   |                   |       JwtAuthenticationTokenFilter.java
+|   |                   |       JwtGenerator.java
+|   |                   |       JwtSuccessHandler.java
+|   |                   |       JwtValidator.java
+|   |                   |       
+|   |                   \---service
+|   |                           IDocumentoService.java
+|   |                           IDocumentoServiceImpl.java
+|   |                           IEntidadService.java
+|   |                           IEntidadServiceImpl.java
+|   |                           IPagoService.java
+|   |                           IPermisoService.java
+|   |                           IPermisoServiceImpl.java
+|   |                           ITerceroService.java
+|   |                           ITerceroServiceImpl.java
+|   |                           IUsuarioService.java
+|   |                           IUsuarioServiceImpl.java
+|   |                           IUtramitService.java
+|   |                           IUtramitServiceImpl.java
+|   |                           
+|   \---resources
+|       |   application.properties
+|       |   
+|       +---static
+|       \---templates
+\---test
+    \---java
+        \---com
+            \---gpa
+                \---backendrest
+                    \---app
+                            BackendRestGpaApplicationTests.java
+                            
